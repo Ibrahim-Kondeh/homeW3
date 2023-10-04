@@ -19,6 +19,7 @@
        <td><?php echo $librarymember['member_name']; ?></td>
         <td><?php echo $librarymember['address']; ?></td>
          <td><?php echo $librarymember['email']; ?></td>
+          <td><a href="<?php echo http://homew3.ikon.oucreate.com/books.php; ?>?member_id=<?php echo $librarymember['member_id']; ?>">bookread</a></td>
        </tr>
        <?php
      }
