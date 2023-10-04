@@ -20,7 +20,7 @@
         <td><?php echo $book['author']; ?></td>
          <td><?php echo $book['isbn']; ?></td>
        </tr>
-       <?php
+       <?php 
      }
 
    ?> 
