@@ -12,7 +12,7 @@
     </thead>
     <tbody>
     <?php
-     while ($librarymember = $librarymembers->fetch_assoc()) { 
+     while ($librarymember = $members->fetch_assoc()) { 
        ?>
        <tr>
        <td><?php echo $member['member_id']; ?></td>
