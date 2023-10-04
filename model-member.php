@@ -1,5 +1,5 @@
 <?php
-function selectLibraryMember() {
+function selectlibrarymember() {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("SELECT member_id, member_name, email, address FROM `librarymember`");
