@@ -15,10 +15,10 @@
      while ($librarymember = $member->fetch_assoc()) { 
        ?>
        <tr>
-       <td><?php echo $member['member_id']; ?></td>
-       <td><?php echo $member['member_name']; ?></td>
-        <td><?php echo $member['address']; ?></td>
-         <td><?php echo $member['email']; ?></td>
+       <td><?php echo $librarymember['member_id']; ?></td>
+       <td><?php echo $librarymember['member_name']; ?></td>
+        <td><?php echo $librarymember['address']; ?></td>
+         <td><?php echo $librarymember['email']; ?></td>
        </tr>
        <?php
      }
