@@ -12,13 +12,13 @@
     </thead>
     <tbody>
     <?php
-     while ($book = $books->fetch_assoc()) { 
+     while ($books = $book->fetch_assoc()) { 
        ?>
        <tr>
-       <td><?php echo $book['book_id']; ?></td>
-       <td><?php echo $book['title']; ?></td>
-        <td><?php echo $book['author']; ?></td>
-         <td><?php echo $book['isbn']; ?></td>
+       <td><?php echo $books['book_id']; ?></td>
+       <td><?php echo $books['title']; ?></td>
+        <td><?php echo $books['author']; ?></td>
+         <td><?php echo $books['isbn']; ?></td>
        </tr>
        <?php
      }
