@@ -12,7 +12,7 @@
     </thead>
     <tbody>
     <?php
-     while ($books = $book->fetch_assoc()) { 
+     while ($book = $books->fetch_assoc()) { 
        ?>
        <tr>
        <td><?php echo $books['book_id']; ?></td>
