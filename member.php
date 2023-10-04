@@ -4,7 +4,7 @@ require_once("model-member.php");
 
 $pageTitle = "Member";
 include "view-header.php";
-$member = selectMember();
+$member = selectLibrarymember();
 include "view-member.php";
 include "view-footer.php";
 ?>
