@@ -21,7 +21,7 @@
        <td><?php echo $librarymember['member_name']; ?></td>
         <td><?php echo $librarymember['address']; ?></td>
          <td><?php echo $librarymember['email']; ?></td>
-        <td><a href="book-read-by-librarymember.php?id=<?php echo $librarymember['member_id']; ?>">Books</a></td>
+        <td><a href="book-borrowed-by-member.php?id=<?php echo $librarymember['member_id']; ?>">Books Borrowed</a></td>
         
        </tr>
        <?php
