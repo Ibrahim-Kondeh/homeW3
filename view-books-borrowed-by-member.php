@@ -13,7 +13,7 @@
     </thead>
     <tbody>
     <?php
-     while ($borrowedbooks = $borrowedbooks->fetch_assoc()) { 
+     while ($borrowedbook = $borrowedbooks->fetch_assoc()) { 
        ?>
        <tr>
        <td><?php echo $borrowedbook['book_id']; ?></td>
