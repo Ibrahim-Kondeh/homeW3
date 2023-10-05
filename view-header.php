@@ -26,7 +26,7 @@
           <a class="nav-link" href="books.php">Books</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="borrowed-books.php">Borrowed Books</a>
+          <a class="nav-link" href="books-borrowed-by-member.php">Borrowed Books</a>
         </li>
       </ul>
     </div>
