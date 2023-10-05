@@ -16,7 +16,7 @@
      while ($borrowedbook = $borrowedbooks->fetch_assoc()) { 
        ?>
        <tr>
-       <td><?php echo $borrowedbook['book_id']; ?></td>
+       <td><?php echo $borrowedbook['member_id']; ?></td>
        <td><?php echo $borrowedbook['date_borrowed']; ?></td>
         <td><?php echo $borrowedbook['librarian']; ?></td>
          <td><?php echo $borrowedbook['return_date']; ?></td>
