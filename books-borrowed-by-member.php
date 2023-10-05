@@ -4,7 +4,7 @@ require_once("model-books-borrowed-by-member.php");
 
 $pageTitle = "Books Borrowed by Members";
 include "view-header.php";
-$books = selectBooksReadbyMembers($_GET['id']);
+$books = selectBooksBorrowedbyMember($_GET['id']);
 include "view-books-borrowed-by-member.php";
 include "view-footer.php";
 ?>
