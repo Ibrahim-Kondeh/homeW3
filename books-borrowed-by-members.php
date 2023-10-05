@@ -1,10 +1,10 @@
 <?php
 require_once("util-db.php");
-require_once("model-books-read-by-librarymember.php");
+require_once("model-books-borrowed-by-member.php");
 
-$pageTitle = "Books Read by Memebrs";
+$pageTitle = "Books Borrowed by Members";
 include "view-header.php";
 $books = selectBooksReadbyMembers($_GET['id']);
-include "view-books-read-by-librarymember.php";
+include "view-books-borrowed-by-member.php";
 include "view-footer.php";
 ?>
